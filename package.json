@@ -1,0 +1,43 @@
+{
+  "name": "tailwindcss_cssvariable_fallback",
+  "version": "1.1.1",
+  "description": "provider css variable property fallback for tailwindcss v2 or v3",
+  "keywords": [
+    "Tailwindcss",
+    "Plugin"
+  ],
+  "main": "src/index.js",
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "chuliang",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "jest": "^28.0.2",
+    "prettier": "^2.6.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest/customMatchers.js"
+    ]
+  }
+}
+
