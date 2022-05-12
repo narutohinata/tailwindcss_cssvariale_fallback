@@ -18,6 +18,11 @@
   },
   "author": "chuliang",
   "license": "MIT",
+  "homepage": "https://github.com/narutohinata/tailwindcss_cssvariale_fallback",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/narutohinata/tailwindcss_cssvariale_fallback"
+  },
   "dependencies": {
     "tailwindcss": ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
   },
